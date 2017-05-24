@@ -833,6 +833,11 @@
                 <artifactId>atomikos</artifactId>
                 <version>${atomikos-version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.opencsv</groupId>
+                <artifactId>opencsv</artifactId>
+                <version>${com.opencsv.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -982,6 +987,7 @@
         <servlet-api-version>2.5</servlet-api-version>
         <javax-transaction-version>1.2</javax-transaction-version>
         <atomikos-version>3.8.0.wso2v1</atomikos-version>
+        <com.opencsv.version>3.9</com.opencsv.version>
 
         <wso2.maven.compiler.source>1.8</wso2.maven.compiler.source>
         <wso2.maven.compiler.target>1.8</wso2.maven.compiler.target>
